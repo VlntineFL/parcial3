@@ -38,7 +38,7 @@ function App() {
       <h2>{isConnected ? 'CONECTADO' : 'NO CONECTADO'}</h2>
       <UlMensajes>
         {mensajes.map(mensaje => (
-          <LiMensaje>{mensaje.usuario}: {mensaje.mensaje}</LiMensaje>
+          <LiMensaje>Valentina: latitud:0, longitud:0</LiMensaje>
         ))}
       </UlMensajes>
       <input
